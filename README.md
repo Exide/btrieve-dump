@@ -31,7 +31,7 @@ $ btrieve-dump valar.dat
 0F 4E 65 73 73 61 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08
 ```
 
-If you need it in binary format, you could use something lie k[xxd](https://manned.org/xxd.1):
+If you need it in binary format, you could use something like [xxd](https://manned.org/xxd.1):
 ```shell
 $ btrieve-dump valar.dat | xxd -revert -plain > valar.bin
 $ xxd -cols 22 -groupsize 1 valar.bin
