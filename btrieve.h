@@ -1,7 +1,8 @@
 #ifndef BTRIEVE_H
 #define BTRIEVE_H
 
-#include <libc.h>
+#include <stdint.h>
+#include <string.h>
 
 enum Format { Old, New };
 
